@@ -1,0 +1,701 @@
+{
+ "response": {
+  "duration": 41844,
+  "description": "Одержав победу над Королём демонов, отряд героя Химмеля вернулся домой. Приключение, растянувшееся на десятилетие, подош",
+  "poster": {
+   "fullsize": "//static.yani.tv/posters/full/1636668991.jpg",
+   "big": "//static.yani.tv/posters/full/1636668991.jpg",
+   "small": "//static.yani.tv/posters/full/1636668991.jpg",
+   "medium": "//static.yani.tv/posters/full/1636668991.jpg",
+   "huge": "//static.yani.tv/posters/full/1636668991.jpg",
+   "mega": "//static.yani.tv/posters/full/1636668991.jpg"
+  },
+  "title": "Провожающая в последний путь Фрирен",
+  "anime_url": "provozhayushchaya-posledniy-put-friren",
+  "anime_id": 10661,
+  "rating": {
+   "average": 8.98815789438655,
+   "counters": 10640,
+   "kp_rating": 8.7,
+   "shikimori_rating": 8.86074706030926,
+   "anidub_rating": 0,
+   "myanimelist_rating": 9.25,
+   "worldart_rating": 8.8
+  },
+  "genres": [
+   {
+    "title": "Сёнэн",
+    "url": "/catalog/category/senen",
+    "id": 8,
+    "alias": "senen"
+   },
+   {
+    "title": "Драма",
+    "url": "/catalog/category/drama",
+    "id": 15,
+    "alias": "drama"
+   },
+   {
+    "title": "Приключения",
+    "url": "/catalog/category/priklyucheniya",
+    "id": 32,
+    "alias": "priklyucheniya"
+   },
+   {
+    "title": "Фэнтези",
+    "url": "/catalog/category/fentezi",
+    "id": 42,
+    "alias": "fentezi"
+   },
+   {
+    "title": "Магия",
+    "url": "/catalog/category/magiya",
+    "id": 51,
+    "alias": "magiya"
+   },
+   {
+    "title": "Целый фэнтези мир",
+    "url": "/catalog/category/celyj-fentezi-mir",
+    "id": 59,
+    "alias": "celyj-fentezi-mir"
+   },
+   {
+    "title": "Эльфы",
+    "url": "/catalog/category/el-fy",
+    "id": 60,
+    "alias": "el-fy"
+   },
+   {
+    "title": "Повседневность",
+    "url": "/catalog/category/povsednevnost",
+    "id": 86,
+    "alias": "povsednevnost"
+   }
+  ],
+  "year": 2023,
+  "min_age": {
+   "value": 3,
+   "title_long": "PG-13 (от 13 лет)",
+   "title": "PG-13"
+  },
+  "views": 3896927,
+  "season": 4,
+  "anime_status": {
+   "value": 0,
+   "title": "вышел",
+   "alias": "released",
+   "class": ""
+  },
+  "type": {
+   "name": "Сериал",
+   "value": 1,
+   "shortname": "ТВ",
+   "alias": "tv"
+  },
+  "remote_ids": {
+   "worldart_id": 11466,
+   "shikimori_id": 52991,
+   "anidub_id": 0,
+   "anilibria_alias": "sousou-no-frieren",
+   "myanimelist_id": 52991,
+   "kp_id": 5401195,
+   "worldart_type": "animation",
+   "sr_id": 1459
+  },
+  "top": {
+   "global": 24,
+   "category": 17
+  },
+  "blocked_in": [],
+  "videos": [
+   {
+    "video_id": 687384,
+    "data": {
+     "player": "Плеер Aksor",
+     "dubbing": "Озвучка AniLibria",
+     "player_id": 1
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "1",
+    "date": 1726057905,
+    "iframe_url": "https://player.aksor.tv/video/36c45284528fe5b4f30a39d9f008d1b8",
+    "index": 1172,
+    "skips": {
+     "opening": null,
+     "ending": {
+      "time": 1456,
+      "length": 89
+     }
+    },
+    "views": 2133,
+    "duration": 1560
+   },
+   {
+    "video_id": 687385,
+    "data": {
+     "player": "Плеер Aksor",
+     "dubbing": "Озвучка AniLibria",
+     "player_id": 1
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "2",
+    "date": 1726057905,
+    "iframe_url": "https://player.aksor.tv/video/0ca94c89d7abb7dc4eb8734718674cc7",
+    "index": 1173,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1492,
+      "length": 59
+     }
+    },
+    "views": 851,
+    "duration": 1560
+   },
+   {
+    "video_id": 577946,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Озвучка AniLibria",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "1",
+    "date": 1696086999,
+    "iframe_url": "//kodikplayer.com/season/94795/d5a209e95d68094e346175d7357ef0c7/720p?translations=false&only_episode=true&only_season=true&episode=1",
+    "index": 37,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1453,
+      "length": 99
+     }
+    },
+    "views": 8296,
+    "duration": 1560
+   },
+   {
+    "video_id": 577947,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Озвучка AniLibria",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "2",
+    "date": 1696086999,
+    "iframe_url": "//kodikplayer.com/season/94795/d5a209e95d68094e346175d7357ef0c7/720p?translations=false&only_episode=true&only_season=true&episode=2",
+    "index": 38,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1454,
+      "length": 89
+     }
+    },
+    "views": 6236,
+    "duration": 1560
+   },
+   {
+    "video_id": 677752,
+    "data": {
+     "player": "Плеер Aksor",
+     "dubbing": "Озвучка StudioBand",
+     "player_id": 1
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "1",
+    "date": 1722552181,
+    "iframe_url": "https://player.aksor.tv/video/a11a18856ca28180e58fd14963bd2ceb",
+    "index": 1144,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1520,
+      "length": 19
+     }
+    },
+    "views": 521,
+    "duration": 1560
+   },
+   {
+    "video_id": 677753,
+    "data": {
+     "player": "Плеер Aksor",
+     "dubbing": "Озвучка StudioBand",
+     "player_id": 1
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "2",
+    "date": 1722552181,
+    "iframe_url": "https://player.aksor.tv/video/1824d54a77e2a3a47495ef61db275dde",
+    "index": 1145,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1540,
+      "length": 19
+     }
+    },
+    "views": 246,
+    "duration": 1560
+   },
+   {
+    "video_id": 577789,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Субтитры Crunchyroll",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "1",
+    "date": 1696019023,
+    "iframe_url": "//kodikplayer.com/season/94759/627b449e71ccb06740b8e976b8f751b5/720p?translations=false&only_episode=true&only_season=true&episode=1",
+    "index": 18,
+    "skips": {
+     "opening": null,
+     "ending": {
+      "time": 1453,
+      "length": 99
+     }
+    },
+    "views": 945,
+    "duration": 1560
+   },
+   {
+    "video_id": 577790,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Субтитры Crunchyroll",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "2",
+    "date": 1696019023,
+    "iframe_url": "//kodikplayer.com/season/94759/627b449e71ccb06740b8e976b8f751b5/720p?translations=false&only_episode=true&only_season=true&episode=2",
+    "index": 19,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 54
+     },
+     "ending": {
+      "time": 1452,
+      "length": 99
+     }
+    },
+    "views": 668,
+    "duration": 1560
+   },
+   {
+    "video_id": 581032,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Озвучка AniDUB",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "1",
+    "date": 1697019828,
+    "iframe_url": "//kodikplayer.com/season/94969/79d24e578bb4028f5e7809fca1eb5cab/720p?translations=false&only_episode=true&only_season=true&episode=1",
+    "index": 161,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1456,
+      "length": 89
+     }
+    },
+    "views": 281,
+    "duration": 1560
+   },
+   {
+    "video_id": 581033,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Озвучка AniDUB",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "2",
+    "date": 1697019828,
+    "iframe_url": "//kodikplayer.com/season/94969/79d24e578bb4028f5e7809fca1eb5cab/720p?translations=false&only_episode=true&only_season=true&episode=2",
+    "index": 162,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1455,
+      "length": 89
+     }
+    },
+    "views": 151,
+    "duration": 1560
+   },
+   {
+    "video_id": 702584,
+    "data": {
+     "player": "Плеер Aksor",
+     "dubbing": "Субтитры",
+     "player_id": 1
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "1",
+    "date": 1730198244,
+    "iframe_url": "https://player.aksor.tv/video/77b1da519f42ce051a45bafafe71ea3a",
+    "index": 1230,
+    "skips": {
+     "opening": null,
+     "ending": null
+    },
+    "views": 61,
+    "duration": 1560
+   },
+   {
+    "video_id": 702585,
+    "data": {
+     "player": "Плеер Aksor",
+     "dubbing": "Субтитры",
+     "player_id": 1
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "2",
+    "date": 1730198244,
+    "iframe_url": "https://player.aksor.tv/video/2875ada411773cd59c3cc08fdec7d382",
+    "index": 1231,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1455,
+      "length": 89
+     }
+    },
+    "views": 30,
+    "duration": 1560
+   },
+   {
+    "video_id": 880900,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Озвучка AniDUB Online",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "1",
+    "date": 1754874140,
+    "iframe_url": "//kodikplayer.com/season/94969/79d24e578bb4028f5e7809fca1eb5cab/720p?translations=false&only_episode=true&only_season=true&episode=1",
+    "index": 1336,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1455,
+      "length": 89
+     }
+    },
+    "views": 36,
+    "duration": 1560
+   },
+   {
+    "video_id": 880901,
+    "data": {
+     "player": "Плеер Kodik",
+     "dubbing": "Озвучка AniDUB Online",
+     "player_id": 4
+    },
+    "author": {
+     "avatars": {
+      "small": "//static.yani.tv/img/no-photo.jpg",
+      "big": "//static.yani.tv/img/no-photo.jpg",
+      "full": "//static.yani.tv/img/no-photo.jpg"
+     },
+     "roles": []
+    },
+    "number": "2",
+    "date": 1754874140,
+    "iframe_url": "//kodikplayer.com/season/94969/79d24e578bb4028f5e7809fca1eb5cab/720p?translations=false&only_episode=true&only_season=true&episode=2",
+    "index": 1337,
+    "skips": {
+     "opening": {
+      "time": 0,
+      "length": 89
+     },
+     "ending": {
+      "time": 1454,
+      "length": 89
+     }
+    },
+    "views": 15,
+    "duration": 1560
+   }
+  ],
+  "other_titles": [
+   "Frieren at the Funeral",
+   "Frieren: Beyond Journey's End",
+   "Sousou no Frieren",
+   "Проводжаюча в останню путь Фрірен",
+   "葬送のフリーレン"
+  ],
+  "translates": [
+   {
+    "value": 4,
+    "title": "Многоголосый",
+    "href": "multivoice"
+   },
+   {
+    "value": 6,
+    "title": "Двухголосый",
+    "href": "duet"
+   },
+   {
+    "value": 7,
+    "title": "Субтитры",
+    "href": "subtitles"
+   }
+  ],
+  "creators": [
+   {
+    "url": "/catalog/director/7883",
+    "title": "Кэйитиро Сайто",
+    "id": 7883
+   }
+  ],
+  "studios": [
+   {
+    "url": "/catalog/studio/madhouse",
+    "title": "Madhouse",
+    "id": 19
+   }
+  ],
+  "original": "Манга",
+  "viewing_order": [
+   {
+    "anime_id": 10661,
+    "anime_url": "provozhayushchaya-posledniy-put-friren",
+    "data": {
+     "text": "адаптация манги",
+     "id": 3528,
+     "index": 0
+    },
+    "poster": {
+     "fullsize": "//static.yani.tv/posters/full/1636668991.jpg",
+     "big": "//static.yani.tv/posters/full/1636668991.jpg",
+     "small": "//static.yani.tv/posters/full/1636668991.jpg",
+     "medium": "//static.yani.tv/posters/full/1636668991.jpg",
+     "huge": "//static.yani.tv/posters/full/1636668991.jpg",
+     "mega": "//static.yani.tv/posters/full/1636668991.jpg"
+    },
+    "title": "Провожающая в последний путь Фрирен",
+    "anime_status": {
+     "value": 0,
+     "title": "вышел",
+     "alias": "released",
+     "class": ""
+    },
+    "type": {
+     "name": "Сериал",
+     "value": 1,
+     "shortname": "ТВ",
+     "alias": "tv"
+    },
+    "year": 2023,
+    "user": {
+     "list": {
+      "list": null,
+      "is_fav": false
+     }
+    },
+    "description": "Одержав победу над Королём демонов, отряд героя Химмеля вернулся домой. Приключение, растянувшееся на десятилетие, подошло к завершению. Волшебница-эльф Фрирен и её отважные товарищи принесли людям мир и разошлись в разные стороны, чтобы спокойно прожить остаток жизни. Однако не всех членов отряда ждёт одинаковая участь. Для эльфов время течёт иначе, поэтому Фрирен вынужденно становится свидетелем того, как её спутники один за другим постепенно уходят из жизни. Девушка осознала, что годы, проведённые в отряде героя, пронеслись в один миг, как падающая звезда в бескрайнем космосе её жизни, и столкнулась с сожалениями об упущенных возможностях. Сможет ли она смириться со смертью друзей и понять, что значит жизнь для окружающих её людей? Фрирен начинает новое путешествие, чтобы найти ответ.",
+    "rating": 8.98815789438655
+   },
+   {
+    "anime_id": 11312,
+    "anime_url": "provozhayuschaya-v-posledniy-put-friren-magiya",
+    "data": {
+     "text": "дополнение",
+     "id": 3528,
+     "index": 1
+    },
+    "poster": {
+     "fullsize": "//static.yani.tv/posters/full/1636668989.jpg",
+     "big": "//static.yani.tv/posters/full/1636668989.jpg",
+     "small": "//static.yani.tv/posters/full/1636668989.jpg",
+     "medium": "//static.yani.tv/posters/full/1636668989.jpg",
+     "huge": "//static.yani.tv/posters/full/1636668989.jpg",
+     "mega": "//static.yani.tv/posters/full/1636668989.jpg"
+    },
+    "title": "Провожающая в последний путь Фрирен: Магия",
+    "anime_status": {
+     "value": 0,
+     "title": "вышел",
+     "alias": "released",
+     "class": ""
+    },
+    "type": {
+     "name": "ONA",
+     "value": 7,
+     "shortname": "ONA",
+     "alias": "ona"
+    },
+    "year": 2023,
+    "user": {
+     "list": {
+      "list": null,
+      "is_fav": false
+     }
+    },
+    "description": "Бонусные комедийные эпизоды, выполненные в чиби-стиле",
+    "rating": 6.96753246722511
+   }
+  ],
+  "episodes": {
+   "count": 28,
+   "aired": 27,
+   "next_date": 1695945600,
+   "prev_date": 0
+  },
+  "comments_count": 2509,
+  "parent_comments_count": 1104,
+  "reviews_count": 2,
+  "partner_videos_count": 9,
+  "trailers_count": 5,
+  "random_screenshots": [
+   {
+    "time": 1290,
+    "id": 12225,
+    "episode": "19",
+    "sizes": {
+     "small": "https://static.yani.tv/screenshots/10661/19/1310.small.webp",
+     "full": "https://static.yani.tv/screenshots/10661/19/1310.small.webp"
+    }
+   },
+   {
+    "time": 250,
+    "id": 13455,
+    "episode": "28",
+    "sizes": {
+     "small": "https://static.yani.tv/screenshots/10661/28/270.small.webp",
+     "full": "https://static.yani.tv/screenshots/10661/28/270.small.webp"
+    }
+   }
+  ],
+  "posts_count": 2,
+  "lists_count": 72780
+ }
+}

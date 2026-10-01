@@ -1,0 +1,380 @@
+{
+ "response": [
+  {
+   "description": "Одержав победу над Королём демонов, отряд героя Химмеля вернулся домой. Приключение, растянувшееся на десятилетие, подош",
+   "poster": {
+    "fullsize": "//static.yani.tv/posters/full/1636668991.jpg",
+    "big": "//static.yani.tv/posters/full/1636668991.jpg",
+    "small": "//static.yani.tv/posters/full/1636668991.jpg",
+    "medium": "//static.yani.tv/posters/full/1636668991.jpg",
+    "huge": "//static.yani.tv/posters/full/1636668991.jpg",
+    "mega": "//static.yani.tv/posters/full/1636668991.jpg"
+   },
+   "title": "Провожающая в последний путь Фрирен",
+   "anime_url": "provozhayushchaya-posledniy-put-friren",
+   "anime_id": 10661,
+   "rating": {
+    "average": 8.98815789438655,
+    "counters": 10640,
+    "kp_rating": 8.7,
+    "anidub_rating": 0,
+    "myanimelist_rating": 9.25,
+    "worldart_rating": 8.8,
+    "shikimori_rating": 8.86074706030926
+   },
+   "genres": [
+    {
+     "title": "Сёнэн",
+     "url": "/catalog/category/senen",
+     "id": 8,
+     "alias": "senen"
+    },
+    {
+     "title": "Драма",
+     "url": "/catalog/category/drama",
+     "id": 15,
+     "alias": "drama"
+    },
+    {
+     "title": "Приключения",
+     "url": "/catalog/category/priklyucheniya",
+     "id": 32,
+     "alias": "priklyucheniya"
+    },
+    {
+     "title": "Фэнтези",
+     "url": "/catalog/category/fentezi",
+     "id": 42,
+     "alias": "fentezi"
+    },
+    {
+     "title": "Магия",
+     "url": "/catalog/category/magiya",
+     "id": 51,
+     "alias": "magiya"
+    },
+    {
+     "title": "Целый фэнтези мир",
+     "url": "/catalog/category/celyj-fentezi-mir",
+     "id": 59,
+     "alias": "celyj-fentezi-mir"
+    },
+    {
+     "title": "Эльфы",
+     "url": "/catalog/category/el-fy",
+     "id": 60,
+     "alias": "el-fy"
+    },
+    {
+     "title": "Повседневность",
+     "url": "/catalog/category/povsednevnost",
+     "id": 86,
+     "alias": "povsednevnost"
+    }
+   ],
+   "year": 2023,
+   "min_age": {
+    "value": 3,
+    "title_long": "PG-13 (от 13 лет)",
+    "title": "PG-13"
+   },
+   "views": 3896927,
+   "season": 4,
+   "anime_status": {
+    "value": 0,
+    "title": "вышел",
+    "alias": "released",
+    "class": ""
+   },
+   "type": {
+    "name": "Сериал",
+    "value": 1,
+    "shortname": "ТВ",
+    "alias": "tv"
+   },
+   "remote_ids": {
+    "worldart_id": 11466,
+    "shikimori_id": 52991,
+    "anidub_id": 0,
+    "anilibria_alias": "sousou-no-frieren",
+    "myanimelist_id": 52991,
+    "kp_id": 5401195,
+    "worldart_type": "animation",
+    "sr_id": 1459
+   },
+   "top": {
+    "category": 17,
+    "global": 24
+   },
+   "blocked_in": [
+    ""
+   ]
+  },
+  {
+   "description": "Получив звание мага первого класса, Фрирен вместе с Ферн и Штарком возобновляет путешествие к Ауреолу. Путь к месту упок",
+   "poster": {
+    "fullsize": "//static.yani.tv/posters/full/1636933207.jpg",
+    "big": "//static.yani.tv/posters/full/1636933207.jpg",
+    "small": "//static.yani.tv/posters/full/1636933207.jpg",
+    "medium": "//static.yani.tv/posters/full/1636933207.jpg",
+    "huge": "//static.yani.tv/posters/full/1636933207.jpg",
+    "mega": "//static.yani.tv/posters/full/1636933207.jpg"
+   },
+   "title": "Провожающая в последний путь Фрирен 2",
+   "anime_url": "provozhayuschaya-v-posledniy-put-friren-2",
+   "anime_id": 15084,
+   "rating": {
+    "average": 8.96275670017961,
+    "counters": 5746,
+    "kp_rating": 8.7,
+    "anidub_rating": 0,
+    "myanimelist_rating": 8.84,
+    "worldart_rating": 8.4,
+    "shikimori_rating": 8.56223719310937
+   },
+   "genres": [
+    {
+     "title": "Сёнэн",
+     "url": "/catalog/category/senen",
+     "id": 8,
+     "alias": "senen"
+    },
+    {
+     "title": "Драма",
+     "url": "/catalog/category/drama",
+     "id": 15,
+     "alias": "drama"
+    },
+    {
+     "title": "Приключения",
+     "url": "/catalog/category/priklyucheniya",
+     "id": 32,
+     "alias": "priklyucheniya"
+    },
+    {
+     "title": "Фэнтези",
+     "url": "/catalog/category/fentezi",
+     "id": 42,
+     "alias": "fentezi"
+    },
+    {
+     "title": "Магия",
+     "url": "/catalog/category/magiya",
+     "id": 51,
+     "alias": "magiya"
+    },
+    {
+     "title": "Целый фэнтези мир",
+     "url": "/catalog/category/celyj-fentezi-mir",
+     "id": 59,
+     "alias": "celyj-fentezi-mir"
+    },
+    {
+     "title": "Эльфы",
+     "url": "/catalog/category/el-fy",
+     "id": 60,
+     "alias": "el-fy"
+    },
+    {
+     "title": "Повседневность",
+     "url": "/catalog/category/povsednevnost",
+     "id": 86,
+     "alias": "povsednevnost"
+    }
+   ],
+   "year": 2026,
+   "min_age": {
+    "value": 3,
+    "title_long": "PG-13 (от 13 лет)",
+    "title": "PG-13"
+   },
+   "views": 4673670,
+   "season": 1,
+   "anime_status": {
+    "value": 0,
+    "title": "вышел",
+    "alias": "released",
+    "class": ""
+   },
+   "type": {
+    "name": "Сериал",
+    "value": 1,
+    "shortname": "ТВ",
+    "alias": "tv"
+   },
+   "remote_ids": {
+    "worldart_id": 12242,
+    "shikimori_id": 59978,
+    "anidub_id": 0,
+    "anilibria_alias": "",
+    "myanimelist_id": 59978,
+    "kp_id": 5401195,
+    "worldart_type": "animation",
+    "sr_id": 0
+   },
+   "top": {
+    "category": 23,
+    "global": 32
+   },
+   "blocked_in": []
+  },
+  {
+   "description": "Фрирен вместе с Ферн и Штарком добирается до северного региона, где их взору предстаёт некогда процветающий город, полно",
+   "poster": {
+    "fullsize": "//static.yani.tv/posters/full/1636932891.jpg",
+    "big": "//static.yani.tv/posters/full/1636932891.jpg",
+    "small": "//static.yani.tv/posters/full/1636932891.jpg",
+    "medium": "//static.yani.tv/posters/full/1636932891.jpg",
+    "huge": "//static.yani.tv/posters/full/1636932891.jpg",
+    "mega": "//static.yani.tv/posters/full/1636932891.jpg"
+   },
+   "title": "Провожающая в последний путь Фрирен: Золотая земля",
+   "anime_url": "provozhayuschaya-v-posledniy-put-friren-zolotaya-zemlya",
+   "anime_id": 27416,
+   "rating": {
+    "average": 0,
+    "counters": 0,
+    "kp_rating": 0,
+    "anidub_rating": 0,
+    "myanimelist_rating": 0,
+    "worldart_rating": 0,
+    "shikimori_rating": 9.09183673469388
+   },
+   "genres": [
+    {
+     "title": "Сёнэн",
+     "url": "/catalog/category/senen",
+     "id": 8,
+     "alias": "senen"
+    },
+    {
+     "title": "Драма",
+     "url": "/catalog/category/drama",
+     "id": 15,
+     "alias": "drama"
+    },
+    {
+     "title": "Приключения",
+     "url": "/catalog/category/priklyucheniya",
+     "id": 32,
+     "alias": "priklyucheniya"
+    },
+    {
+     "title": "Фэнтези",
+     "url": "/catalog/category/fentezi",
+     "id": 42,
+     "alias": "fentezi"
+    }
+   ],
+   "year": 2027,
+   "min_age": {
+    "value": 3,
+    "title_long": "PG-13 (от 13 лет)",
+    "title": "PG-13"
+   },
+   "views": 125439,
+   "season": 4,
+   "anime_status": {
+    "value": 2,
+    "title": "анонс",
+    "alias": "announcement",
+    "class": "attention"
+   },
+   "type": {
+    "name": "Сериал",
+    "value": 1,
+    "shortname": "ТВ",
+    "alias": "tv"
+   },
+   "remote_ids": {
+    "worldart_id": 12847,
+    "shikimori_id": 63816,
+    "anidub_id": 0,
+    "anilibria_alias": "",
+    "myanimelist_id": 63816,
+    "kp_id": 0,
+    "worldart_type": "animation",
+    "sr_id": 0
+   },
+   "top": {
+    "category": 1011,
+    "global": 1709
+   },
+   "blocked_in": []
+  },
+  {
+   "description": "Бонусные комедийные эпизоды, выполненные в чиби-стиле",
+   "poster": {
+    "fullsize": "//static.yani.tv/posters/full/1636668989.jpg",
+    "big": "//static.yani.tv/posters/full/1636668989.jpg",
+    "small": "//static.yani.tv/posters/full/1636668989.jpg",
+    "medium": "//static.yani.tv/posters/full/1636668989.jpg",
+    "huge": "//static.yani.tv/posters/full/1636668989.jpg",
+    "mega": "//static.yani.tv/posters/full/1636668989.jpg"
+   },
+   "title": "Провожающая в последний путь Фрирен: Магия",
+   "anime_url": "provozhayuschaya-v-posledniy-put-friren-magiya",
+   "anime_id": 11312,
+   "rating": {
+    "average": 6.96753246722511,
+    "counters": 462,
+    "kp_rating": 0,
+    "anidub_rating": 0,
+    "myanimelist_rating": 7.36,
+    "worldart_rating": 0,
+    "shikimori_rating": 7.3387358184765
+   },
+   "genres": [
+    {
+     "title": "Комедия",
+     "url": "/catalog/category/komediya",
+     "id": 16,
+     "alias": "komediya"
+    },
+    {
+     "title": "Фэнтези",
+     "url": "/catalog/category/fentezi",
+     "id": 42,
+     "alias": "fentezi"
+    }
+   ],
+   "year": 2023,
+   "min_age": {
+    "value": 3,
+    "title_long": "PG-13 (от 13 лет)",
+    "title": "PG-13"
+   },
+   "views": 222434,
+   "season": 4,
+   "anime_status": {
+    "value": 0,
+    "title": "вышел",
+    "alias": "released",
+    "class": ""
+   },
+   "type": {
+    "name": "ONA",
+    "value": 7,
+    "shortname": "ONA",
+    "alias": "ona"
+   },
+   "remote_ids": {
+    "worldart_id": 0,
+    "shikimori_id": 56885,
+    "anidub_id": 0,
+    "anilibria_alias": "",
+    "myanimelist_id": 56885,
+    "kp_id": 0,
+    "worldart_type": "animation",
+    "sr_id": 0
+   },
+   "top": {
+    "category": 1712,
+    "global": 9956
+   },
+   "blocked_in": [
+    ""
+   ]
+  }
+ ]
+}

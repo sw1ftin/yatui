@@ -1,0 +1,24 @@
+{
+ "domain": "kodikplayer.com",
+ "default": 360,
+ "links": {
+  "360": [
+   {
+    "src": "Tg9rjO91HK5hj2fdHOVsjq5rj20dlFVtkvDejO9pHPUdUhM4WBohHLIbVro0Hq00UOU4TEMfVEUbHrHtHLMhGBG1U2G4T2VsGrVtHrChUEVpVONpULltGBshVho4ULs5U2CeHrI3WrQeUrGfULIgULUdUhGeTu1eVLxwjPU6jENciEHtk3YcjBV1WI",
+    "type": "application/x-mpegURL"
+   }
+  ],
+  "480": [
+   {
+    "src": "Tg9rjO91HK5hj2fdHOVsjq5rj20dlFVtkvDejO9pHPUdUhM4WBohHLIbVro0Hq00UOU4TEMfVEUbHrHtHLMhGBG1U2G4T2VsGrVtHrChUEVpVONpULltGBshVho4ULs5U2CeHrI3WrQeUrGfULIgULUdVLoeTu1eVLxwjPU6jENciEHtk3YcjBV1WI",
+    "type": "application/x-mpegURL"
+   }
+  ],
+  "720": [
+   {
+    "src": "Tg9rjO91HK5hj2fdHOVsjq5rj20dlFVtkvDejO9pHPUdUhM4WBohHLIbVro0Hq00UOU4TEMfVEUbHrHtHLMhGBG1U2G4T2VsGrVtHrChUEVpVONpULltGBshVho4ULs5U2CeHrI3WrQeUrGfULIgULUdVhQeTu1eVLxwjPU6jENciEHtk3YcjBV1WI",
+    "type": "application/x-mpegURL"
+   }
+  ]
+ }
+}
