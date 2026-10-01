@@ -1,0 +1,2 @@
+# yatui
+TUI for YummyAnime
