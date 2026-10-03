@@ -6,6 +6,8 @@ use ratatui::layout::{Constraint, Layout, Rect};
 use ratatui::style::{Color, Modifier, Style};
 use ratatui::text::{Line, Span};
 use ratatui::widgets::{Block, List, ListItem, ListState, Paragraph, Tabs, Wrap};
+use std::sync::{Arc, mpsc};
+use std::time::Duration;
 
 use crate::app;
 use crate::library::{Library, WatchStatus};
@@ -22,7 +24,7 @@ enum Screen {
 }
 
 struct Ui {
-    source: Box<dyn Source>,
+    source: Arc<dyn Source>,
     player: Box<dyn Player>,
     library: Library,
     screen: Screen,
@@ -92,32 +94,77 @@ impl Ui {
         reset(&mut self.library_state, n);
     }
 
-    fn with_loading<T>(
+    fn with_loading<T: Send + 'static>(
         &mut self,
         term: &mut DefaultTerminal,
-        f: impl FnOnce(&Self) -> Result<T>,
+        f: impl FnOnce(&dyn Source) -> Result<T> + Send + 'static,
     ) -> Option<T> {
         self.message = Some(strings::LOADING.into());
-        let _ = term.draw(|fr| self.draw(fr));
-        match f(self) {
-            Ok(v) => {
-                self.message = None;
-                Some(v)
+        let source = Arc::clone(&self.source);
+        let (sender, receiver) = mpsc::channel();
+        std::thread::spawn(move || {
+            let _ = sender.send(f(source.as_ref()));
+        });
+        loop {
+            if let Err(e) = term.draw(|fr| self.draw(fr)) {
+                self.message = Some(e.to_string());
+                return None;
             }
-            Err(e) => {
-                self.message = Some(format!("{e:#}"));
-                None
+            match receiver.try_recv() {
+                Ok(Ok(value)) => {
+                    self.message = None;
+                    return Some(value);
+                }
+                Ok(Err(e)) => {
+                    self.message = Some(format!("{e:#}"));
+                    return None;
+                }
+                Err(mpsc::TryRecvError::Disconnected) => {
+                    self.message = Some(strings::ERR_BAD_RESPONSE.into());
+                    return None;
+                }
+                Err(mpsc::TryRecvError::Empty) => {}
+            }
+            match event::poll(Duration::from_millis(50)) {
+                Ok(true) => match event::read() {
+                    Ok(Event::Key(key)) if key.kind == KeyEventKind::Press => {
+                        if key.code == KeyCode::Esc {
+                            self.message = None;
+                            return None;
+                        }
+                        if key.code == KeyCode::Char('q')
+                            || (key.code == KeyCode::Char('c')
+                                && key.modifiers.contains(KeyModifiers::CONTROL))
+                        {
+                            self.quit = true;
+                            return None;
+                        }
+                    }
+                    Err(e) => {
+                        self.message = Some(e.to_string());
+                        return None;
+                    }
+                    _ => {}
+                },
+                Ok(false) => {}
+                Err(e) => {
+                    self.message = Some(e.to_string());
+                    return None;
+                }
             }
         }
     }
 
     fn open_title(&mut self, term: &mut DefaultTerminal, slug: String, from_library: bool) {
-        let Some(details) = self.with_loading(term, |ui| ui.source.details(&slug)) else {
+        let Some(details) = self.with_loading(term, move |source| source.details(&slug)) else {
             return;
         };
         self.library
             .set_total(&details.title.slug, details.title.episodes_total);
-        let saved = self.library.get(&slug).and_then(|e| e.translation.clone());
+        let saved = self
+            .library
+            .get(&details.title.slug)
+            .and_then(|e| e.translation.clone());
         let idx =
             crate::source::pick_translation(&details.translations, saved.as_deref()).unwrap_or(0);
         self.translation_state
@@ -148,10 +195,8 @@ impl Ui {
         else {
             return;
         };
-        let streams = self.with_loading(term, |ui| {
-            let ep = &ui.details.as_ref().expect("details").translations[ti].episodes[ei];
-            ui.source.streams(ep)
-        });
+        let ep = self.details.as_ref().expect("details").translations[ti].episodes[ei].clone();
+        let streams = self.with_loading(term, move |source| source.streams(&ep));
         if let Some(s) = streams {
             reset(&mut self.quality_state, s.variants.len());
             self.streams = Some((ei, s));
@@ -255,7 +300,7 @@ impl Ui {
             match key.code {
                 KeyCode::Enter if !self.query.trim().is_empty() => {
                     let q = self.query.clone();
-                    if let Some(r) = self.with_loading(term, |ui| ui.source.search(&q)) {
+                    if let Some(r) = self.with_loading(term, move |source| source.search(&q)) {
                         if r.is_empty() {
                             self.message = Some(strings::ERR_NO_RESULTS.into());
                         }
@@ -652,7 +697,7 @@ impl Ui {
 
 pub fn run(source: Box<dyn Source>, player: Box<dyn Player>, library: Library) -> Result<()> {
     let mut ui = Ui {
-        source,
+        source: Arc::from(source),
         player,
         library,
         screen: Screen::Search,

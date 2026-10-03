@@ -190,7 +190,10 @@ fn api_error(status: reqwest::StatusCode, body: &str) -> anyhow::Error {
 impl YummyAnime {
     pub fn new(tokens: Tokens) -> Result<Self> {
         Ok(Self {
-            client: Client::builder().build()?,
+            client: Client::builder()
+                .connect_timeout(std::time::Duration::from_secs(5))
+                .timeout(std::time::Duration::from_secs(20))
+                .build()?,
             tokens,
         })
     }

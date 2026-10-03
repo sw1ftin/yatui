@@ -50,7 +50,7 @@ pub struct StreamSet {
     pub subtitles: Vec<Subtitle>,
 }
 
-pub trait Source {
+pub trait Source: Send + Sync {
     fn search(&self, query: &str) -> Result<Vec<Title>>;
     fn details(&self, slug: &str) -> Result<TitleDetails>;
     fn streams(&self, episode: &Episode) -> Result<StreamSet>;

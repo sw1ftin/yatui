@@ -30,6 +30,8 @@ yatui
 
 `j`/`k`, arrows, `PgUp`/`PgDn`, `g`/`G` navigate; `Esc` goes back; `q` quits.
 
+Network requests run outside the UI thread. During loading, `Esc` cancels waiting and `q` or `Ctrl-C` quits. Requests have a 5-second connection timeout and a 20-second total timeout. Canceling discards the result; the in-flight request finishes in the background.
+
 ## CLI
 
 ```sh
