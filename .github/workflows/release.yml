@@ -4,32 +4,51 @@ on:
   push:
     tags:
       - 'v*'
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: Release tag
+        required: true
+        default: v0.1.0
 
 permissions:
   contents: write
 
 env:
   BINARY_NAME: yatui
+  RELEASE_TAG: ${{ inputs.tag || github.ref_name }}
 
 jobs:
   release:
-    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        include:
+          - runner: ubuntu-22.04
+            arch: x86_64
+          - runner: ubuntu-24.04-arm
+            arch: aarch64
+    runs-on: ${{ matrix.runner }}
+    env:
+      ASSET_NAME: yatui-linux-${{ matrix.arch }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.RELEASE_TAG }}
       - uses: dtolnay/rust-toolchain@stable
       - name: Build release binary
         run: cargo build --release --locked
       - name: Verify tag version
         run: |
           version=$(cargo metadata --no-deps --format-version 1 | python3 -c 'import json,sys; print(json.load(sys.stdin)["packages"][0]["version"])')
-          test "$GITHUB_REF_NAME" = "v$version"
+          test "$RELEASE_TAG" = "v$version"
       - name: Prepare binary
         run: |
-          cp "target/release/${BINARY_NAME}" "$BINARY_NAME"
-          sha256sum "$BINARY_NAME" > "${BINARY_NAME}.sha256"
+          cp "target/release/${BINARY_NAME}" "$ASSET_NAME"
+          sha256sum "$ASSET_NAME" > "${ASSET_NAME}.sha256"
       - name: Publish GitHub release
         uses: softprops/action-gh-release@v2
         with:
+          tag_name: ${{ env.RELEASE_TAG }}
           files: |
-            ${{ env.BINARY_NAME }}
-            ${{ env.BINARY_NAME }}.sha256
+            ${{ env.ASSET_NAME }}
+            ${{ env.ASSET_NAME }}.sha256
